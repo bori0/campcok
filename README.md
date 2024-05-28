@@ -41,6 +41,10 @@ Java(JDK17) JavaScript
 <summary> WBS </summary>
 	<h3>간트차트</h3>
 	<img src="https://github.com/LeeInWang/campcok/assets/156161944/e1a97bfc-1c06-4380-a4b9-039ded4d5d19">
+	</details>
+
+<details>
+
 <summary> ERD </summary>
 	<img src="https://github.com/LeeInWang/campcok/assets/156161944/36fa09d9-6dfe-4a79-afb5-30b252e67ca3">
 </details>
