@@ -40,8 +40,8 @@ Java(JDK17) JavaScript
  <details>
   <summary> WBS </summary>
   <summary> ERD </summary>
-![image](https://github.com/LeeInWang/campcok/assets/156161944/dcc98333-6150-4c25-a392-7ba65f7cbc00)
-</details>
+(https://github.com/LeeInWang/campcok/assets/156161944/e1a97bfc-1c06-4380-a4b9-039ded4d5d19)
+ </details>
 
 
 
