@@ -39,11 +39,11 @@ Java(JDK17) JavaScript
 <h2> WBS & ERD </h2>
  <details>
   <summary> WBS </summary>
+	 ![8](https://github.com/LeeInWang/campcok/assets/156161944/e1a97bfc-1c06-4380-a4b9-039ded4d5d19)
+
   <summary> ERD </summary>
 ![8](https://github.com/LeeInWang/campcok/assets/156161944/e1a97bfc-1c06-4380-a4b9-039ded4d5d19)
  </details>
-
-![8](https://github.com/LeeInWang/campcok/assets/156161944/e1a97bfc-1c06-4380-a4b9-039ded4d5d19)
 
 
 
