@@ -66,7 +66,8 @@ npm install @reduxjs/toolkit react-redux <br>
 npm i react-query <br>
 npm install @tanstack/react-query <br>
 npm install @tanstack/react-query-devtools <br>
-
+<br>
+문제있을시 설치 
 npm install @mui/material @mui/icons-material react-copy-to-clipboard
 <br>
 npm install @emotion/react @emotion/styled
