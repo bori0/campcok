@@ -47,7 +47,7 @@ Java(JDK17) JavaScript
 
 <details>
 <summary> WBS </summary>
-	<img src="![8](https://github.com/LeeInWang/campcok/assets/156161944/e1a97bfc-1c06-4380-a4b9-039ded4d5d19)">
+	<img src="https://github.com/LeeInWang/campcok/assets/156161944/e1a97bfc-1c06-4380-a4b9-039ded4d5d19">
 </details>
 
 
