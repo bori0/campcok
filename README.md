@@ -36,7 +36,7 @@ ORM(Object-Relational Mapping) 프레임워크 Hibernate
 <h2> 개발 언어 </h2>
 Java(JDK17) JavaScript
 
-	<h2> WBS & ERD </h2>
+<h2> WBS & ERD </h2>
  <details>
   <summary> WBS </summary>
   <summary> ERD </summary>
