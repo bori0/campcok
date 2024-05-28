@@ -9,6 +9,8 @@
 ## 📆  개발 기간
 2024.04.24~2024.05.26
 
+<br>
+
 ## 👥 멤버 구성
 
 <p text align>
@@ -20,20 +22,28 @@
 팀원: 한수정 - SearchPage, MapAPI <br>
 </p>
 
-
+<br>
 
 ## 🖥 프로젝트 소개
 Open Weather API를 활용한 캠핑장 추천 웹사이트 구현
+
+<br>
 
 ## 📚 프로젝트 주제 
 날씨와 캠핑장 공공데이터를 활용하여
 애완견과 함께 이용할 수 있는 캠핑장을 추천
 
+<br>
+
 ## ♠ 선정 배경
 날씨나 온도에 따라 주의할 점이 달라지기에 날씨나 온도를 고려하여, <br>애완견과 온라인예매를 중심으로 캠핑 장소를 선택하는 데 도움을 드리고자 이 프로젝트를 시작하게 되었습니다. 
 
+<br>
+
 ## ❗기대 효과
 날씨 상황을 실시간으로 확인하고 캠핑 시 날씨로 인한 안전사고에 대해 대응하고, <br> 여행 일정을 편리하게 계획 할 수 있도록 캠핑장의 여행 정보를 제공합니다. 
+
+<br>
 
 ## 🖥  기술 스택
 통합 개발 환경 (IDE) - intellij idea ultimate  Visual Studio Code <br>
@@ -44,8 +54,12 @@ DB MySQL 8.0.27 <br>
 라이브러리 Axios 1.6.8 <br>
 ORM(Object-Relational Mapping) 프레임워크 Hibernate <br>
 
+<br>
+
 ## 🖥 개발 언어
 Java(JDK17) JavaScript
+
+<br>
 
 ## 🖥 React Library 
 npm install @reduxjs/toolkit react-redux <br> 
@@ -54,8 +68,10 @@ npm install @tanstack/react-query <br>
 npm install @tanstack/react-query-devtools <br>
 
 npm install @mui/material @mui/icons-material react-copy-to-clipboard
+<br>
 npm install @emotion/react @emotion/styled
 
+<br>
 
 ## 📈 WBS & ERD
 <details>
@@ -69,6 +85,7 @@ npm install @emotion/react @emotion/styled
 	<img src="https://github.com/LeeInWang/campcok/assets/156161944/36fa09d9-6dfe-4a79-afb5-30b252e67ca3">
 </details>
 
+<br>
 
 ## ⌨ 페이지
 <details>
@@ -88,13 +105,13 @@ npm install @emotion/react @emotion/styled
 	<img src="https://github.com/LeeInWang/campcok/assets/156161944/8bd61d7a-292f-40da-b4bf-10ed711ee7e8">
 </details>
 
-
 <details>
 <summary> 지도 페이지 </summary>
 	<img src="https://github.com/LeeInWang/campcok/assets/156161944/e26f294e-8ccd-4cb7-a16a-3fc15fe2e291">
 	<img src="https://github.com/LeeInWang/campcok/assets/156161944/30e6e91d-1802-4088-9c37-021c6094ab6b" >
 </details>
 
+<br>
 
 ## ⚔ Trouble Shooting
 
@@ -103,6 +120,7 @@ npm install @emotion/react @emotion/styled
 해결 :  overlayRef.current.style.zIndex = 1000: 오버레이의 z-index를 설정하여 다른 요소들보다 위에 표시되도록 합니다. <br>
 </details>
 <br>
+<br>
  <details>
 <summary> 문제 2 : 스프링부트 could not execute statement [Data truncation: Data too long for column 'feature_nm' at row  </summary> <br>
 해결 : column설정하지 않는 domain 변수는 기본 default값이 255까지 제공됩니다. <br>
@@ -110,6 +128,7 @@ feature_nm'  255자가 넘어 "Data too long for column" 오류가 발생한 것
 먼저 테스트에서 실행하게되면, 기존의 테이블이 남아있습니다. <br>
 기존의 테이블을 삭제하고 그다음에 다시한번  column값을 2000으로 지정해주었습니다. <br>
 </details>
+<br>
 <br>
 
 <details>
@@ -142,10 +161,6 @@ public static Specification<Gocamping> lctClsIn(List<String> lctCls) { <br>
 
 로그인 기능(찜, 리뷰) - 캠핑장에 대한 간단한 리뷰를 넣고 가고 싶은 캠핑장을 저장해 놓을 수 있으면 좋겠습니다. <br>
 메인 (지역축제) - 인기 지역축제를 배너로 만들었는데 지역축제 API를 사용했다면 더 많은 정보를 제공할 수 있을 것 같습니다. <br>
-CQRS - 서버어플리케이션에서 읽기와 쓰기를 분리하고, Kafka로 구독을 시킨다면, 응집도는 높아지고, 결합도는 느슨해지는 좋은 구조가 있습니다. <br>
-	서버어플리케이션을 개발하신다면 이런 구조로 개발하는 것을, 제안 드립니다. <br>
-
-
-
-
+CQRS - 서버어플리케이션에서 읽기와 쓰기를 분리하고, Kafka로 구독을 시킨다면,<br> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  응집도는 높아지고, 결합도는 느슨해지는 좋은 구조가 있습니다. <br>
 
