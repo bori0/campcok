@@ -8,6 +8,11 @@ import {
 import TestLogo from "../../img/logo.png";
 import LocationIcon from "../../img/loca.png";
 import { Link } from "react-router-dom";
+import sunnydown from "../../img/sunnydown.svg";
+import foggydown from "../../img/foggydown.svg";
+import cloudydown from "../../img/cloudydown.svg";
+import rainydown from "../../img/rainydown.svg";
+import snowydown from "../../img/snowydown.svg";
 
 const ReadOpenWeatherComponentOneDay = () => {
   const dispatch = useDispatch();
@@ -15,6 +20,27 @@ const ReadOpenWeatherComponentOneDay = () => {
     (state) => state.weather
   );
   const [showLocationButtons, setShowLocationButtons] = useState(false);
+
+  const ICONS = {
+    "01d": sunnydown,
+    "01n": sunnydown,
+    "02d": cloudydown,
+    "02n": cloudydown,
+    "03d": cloudydown,
+    "03n": cloudydown,
+    "04d": cloudydown,
+    "04n": cloudydown,
+    "09d": rainydown,
+    "09n": rainydown,
+    "10d": rainydown,
+    "10n": rainydown,
+    "11d": rainydown,
+    "11n": rainydown,
+    "13d": snowydown,
+    "13n": snowydown,
+    "50d": foggydown,
+    "50n": foggydown,
+  };
 
   useEffect(() => {
     dispatch(fetchWeatherData()).then((response) => {
@@ -53,7 +79,7 @@ const ReadOpenWeatherComponentOneDay = () => {
             </Link>
           </div>
 
-          {/* 나침반 아이콘 부분 */}
+          {/* 지역선택 부분 */}
           <div className="space-x-4 my-5">
             <img
               src={LocationIcon}
@@ -89,8 +115,13 @@ const ReadOpenWeatherComponentOneDay = () => {
                     </style>
 
                     {/* 지역 */}
-                    <div className="text-18pt font-bold text-[#FFFFFF] bg-[#12372A]">
-                      '{openWeather.urlKRName}' 의 날씨
+                    <div className="text-16pt font-bold text-[#FFFFFF] bg-[#12372A] flex justify-center items-center">
+                      {openWeather.urlKRName}
+                      <img
+                        src={ICONS[openWeather.weatherIcon]}
+                        alt={openWeather.description}
+                        className="ml-2 w-6 h-6 white-filter"
+                      />
                     </div>
                   </div>
 
@@ -117,7 +148,7 @@ const ReadOpenWeatherComponentOneDay = () => {
               <button
                 key={cityName}
                 onClick={() => handleCityClick(cityName)}
-                className={`py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600 m-2 ${
+                className={`py-2 px-4 bg-[#12372A] text-[#E8DFCA] rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600 m-2 ${
                   cityName === selectedCity ? "bg-blue-600" : ""
                 }`}
               >

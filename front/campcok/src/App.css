@@ -46,3 +46,7 @@
   transform: scale(0.95);
   background-color: rgba(18, 55, 42, 0.9);
 }
+
+.white-filter {
+  filter: invert(1) brightness(2);
+}

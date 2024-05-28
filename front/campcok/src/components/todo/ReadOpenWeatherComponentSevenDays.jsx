@@ -55,10 +55,6 @@ const ReadOpenWeatherComponentSevenDays = () => {
     dispatch(setSelectedCity(cityName));
   };
 
-  const toggleLocationButtonContainer = () => {
-    setShowLocationButtons(!showLocationButtons);
-  };
-
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error.message}</div>;
 
@@ -75,16 +71,6 @@ const ReadOpenWeatherComponentSevenDays = () => {
   return (
     <div className="border-2 border-bg-[#12372A] mt-10 mr-2 ml-2 p-2">
       <div className="flex flex-col items-center mb-2">
-        <button
-          onClick={toggleLocationButtonContainer}
-          className="py-1 px-2 bg-white border border-white text-white rounded hover:bg-blue-100 focus:outline-none focus:bg-blue-100 m-1"
-        >
-          <img
-            src={LocationIcon}
-            alt="Locations"
-            className="w-4 h-4 object-contain mr-1 inline"
-          />
-        </button>
 
         {showLocationButtons && (
           <div className="flex flex-wrap justify-center space-x-2 mb-2">

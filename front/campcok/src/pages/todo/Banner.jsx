@@ -30,7 +30,7 @@ const Banner = () => {
           >
             <img
               src={BannerImg_1}
-              className="h-80 w-full mt-10 mb-5 bg-[#FFFFFF]"
+              className="h-80 w-full mt-5 bg-[#FFFFFF]"
               alt="Banner 1"
             />
           </a>
@@ -43,7 +43,7 @@ const Banner = () => {
           >
             <img
               src={BannerImg_2}
-              className="h-80 w-full mt-10 mb-5 bg-[#FFFFFF]"
+              className="h-80 w-full mt-5 bg-[#FFFFFF]"
               alt="Banner 2"
             />
           </a>
@@ -56,7 +56,7 @@ const Banner = () => {
           >
             <img
               src={BannerImg_3}
-              className="h-80 w-full mt-10 mb-5 bg-[#FFFFFF]"
+              className="h-80 w-full mt-5 bg-[#FFFFFF]"
               alt="Banner 3"
             />
           </a>
@@ -69,7 +69,7 @@ const Banner = () => {
           >
             <img
               src={BannerImg_4}
-              className="h-80 w-full mt-10 mb-5 bg-[#FFFFFF]"
+              className="h-80 w-full mt-5 bg-[#FFFFFF]"
               alt="Banner 4"
             />
           </a>

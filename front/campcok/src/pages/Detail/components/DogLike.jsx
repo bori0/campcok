@@ -130,7 +130,7 @@ const DogLike = () => {
 
   return (
     <>
-      <div className="container mx-auto p-4">
+      <div className="container mx-auto p-1">
         <div className="flex justify-center items-center">
           <img
             src={BannerImg_1}
@@ -158,7 +158,7 @@ const DogLike = () => {
           ))}
         </div>
       </div>
-      <div className="container mx-auto p-4">
+      <div className="container mx-auto p-1">
         <div className="flex justify-center items-center">
           <img
             src={BannerImg_2}
