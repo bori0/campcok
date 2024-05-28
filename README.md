@@ -37,10 +37,11 @@ ORM(Object-Relational Mapping) 프레임워크 Hibernate
 Java(JDK17) JavaScript
 
 	<h2>WBS & ERD </h2>
+ <details>
   <summary> WBS </summary>
   <summary> ERD </summary>
 ![image](https://github.com/LeeInWang/campcok/assets/156161944/dcc98333-6150-4c25-a392-7ba65f7cbc00)
-
+</details>
 
 
 
