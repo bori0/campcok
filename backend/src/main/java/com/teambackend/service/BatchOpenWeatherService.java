@@ -51,7 +51,7 @@ public class BatchOpenWeatherService {
         openWeatherService.removeAll(); // 데이터베이스테이블삭제
 
         String campingUrl = env.getProperty("external.api.weatherurl");
-        String serviceKey = env.getProperty("external.api.weatherurl");
+        String serviceKey = env.getProperty("external.api.weatherkey");
 
         String[] urlKRName = {"서울", "인천", "강릉", "춘천", "홍성", "수원", "대전", "청주", "대구", "부산", "포항", "창원", "울산", "안동", "광주", "전주", "목포", "여수", "제주"};
 
@@ -59,7 +59,7 @@ public class BatchOpenWeatherService {
         String[] urlStringLat = {"37.5683", "37.45", "37.7556", "37.8747", "36.6009", "37.2911", "36.3333", "36.6372", "35.8703", "35.1028", "36.0322", "35.2281", "35.5372", "36.5656", "35.1547", "35.8219", "34.7936", "34.7546", "33.5097"};
         String[] urlStringLon = {"126.9778", "126.4161", "128.8961", "127.7342", "126.665", "127.0089", "127.4167", "127.4897", "128.5911", "129.0403", "129.365", "128.6811", "129.3167", "128.725", "126.9156", "127.1489", "126.3886", "127.6599", "126.5219"};
         String urlStringCnt = "30";
-        String urlStringappid = serviceKey;
+        String urlStringappid = "&appid=" + serviceKey; // 이 부분 수정
         String[] urlString = new String[urlStringLat.length];
 
 

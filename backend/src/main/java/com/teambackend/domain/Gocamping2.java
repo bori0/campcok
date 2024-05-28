@@ -18,7 +18,8 @@ public class Gocamping2 {
     private String facltNm;
     private String addr1;
     private String lineIntro;
-    @Column(length =2000)
+    @Lob
+    @Column(columnDefinition = "TEXT")
     private String intro;
     private String tel;
     @Column(length =2000)
