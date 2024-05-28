@@ -47,6 +47,16 @@ ORM(Object-Relational Mapping) 프레임워크 Hibernate <br>
 ## 🖥 개발 언어
 Java(JDK17) JavaScript
 
+## 🖥 React Library 
+npm install @reduxjs/toolkit react-redux <br> 
+npm i react-query <br>
+npm install @tanstack/react-query <br>
+npm install @tanstack/react-query-devtools <br>
+
+npm install @mui/material @mui/icons-material react-copy-to-clipboard
+npm install @emotion/react @emotion/styled
+
+
 ## 📈 WBS & ERD
 <details>
 <summary> WBS </summary>
@@ -85,6 +95,14 @@ Java(JDK17) JavaScript
 	<img src="https://github.com/LeeInWang/campcok/assets/156161944/30e6e91d-1802-4088-9c37-021c6094ab6b" >
 </details>
 
+
+<br></br>
+  
+## 개선사항
+<details>
+	
+</details>
+  <br></br>
 
 
 <br></br>
