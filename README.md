@@ -165,3 +165,5 @@ public static Specification<Gocamping> lctClsIn(List<String> lctCls) { <br>
 CQRS - 서버어플리케이션에서 읽기와 쓰기를 분리하고, Kafka로 구독을 시킨다면,<br> 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  응집도는 높아지고, 결합도는 느슨해지는 좋은 구조가 있습니다. <br>
 
+## youtube
+https://youtu.be/9PHRTfCM6m4
